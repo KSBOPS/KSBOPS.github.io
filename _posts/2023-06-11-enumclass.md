@@ -111,18 +111,24 @@ public class OverTimeManager2 {
 ## Enum class 생성자
 
 |접근제어자|메소드|설명|
-|------|----------|-----------------|
+|--------|----------|-----------------|
 |protected|Enum(String name, int ordinal)| 컴파일러에서 자동을 호출되도록 해놓은 생성자다. 하지만, 개발자가 이 생성자를 호출 할 수 없다.|
 
 여기서 name은 enum 상수의 이름이다. ordinal은 enum의 순서이며, 상수가 선언된 순서대로 0부터 증가한다.
 
 ## Enum class에서 선언되어 있는 메소드
 1. Static Methods
+
+|메소드|설명|
+|-----|-------------|
 |valueOf(String arg)|String 값을 enum에서 가져온다. 값이 없으면 Exception 발생|
 |valueOf(Class<T> class, String arg)|첮번째 매개변수로는 클래스 타입의 enum을, 두번째 매개변수로는 상수의 이름을 넙겨주면 된다.|
 |values()|enum의 요소들을 순서대로 enum 타입의 배열로 리턴한다.|
 
 2. Static 아닌 Methods
+
+|메소드|설명|
+|-----|-------------|
 |name()| String 값으로 상수의 이름을 리턴한다.|
 |ordinal()|상수의 순서를 리턴한다.|
 |compareTo(E e)|매개 변수 enum 타입과의 순서(ordinal) 차이를 리턴한다.|
