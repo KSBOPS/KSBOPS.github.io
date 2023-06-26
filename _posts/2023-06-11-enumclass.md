@@ -59,6 +59,10 @@ public class OverTimeManager {
 		System.out.println(myAmount);
 	}
 }
+
+THREE_HOUR
+18000
+
  ```
 
  enum 클래스는 생서자를 만들 수 있지만, 생성자를 통하여 객체를 생성할 수 없다.
@@ -104,6 +108,10 @@ public class OverTimeManager2 {
 		System.out.println(value2.compareTo(value3)); //compareTo 메소드 사용
 	}
 }
+
+FIVE_HOUR
+30000
+1
 
  ```
 
