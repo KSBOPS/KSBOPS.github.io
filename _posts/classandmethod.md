@@ -38,7 +38,7 @@ author_profiel : false
         // 중간 생략
     }
     // 그 외 메소드 생략
- }
+ } 
 
  ```
 - DoorLockManager 이라는 것은 "클래스 이름(class name)" 이다. 
