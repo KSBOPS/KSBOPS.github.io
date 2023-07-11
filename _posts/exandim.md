@@ -28,7 +28,7 @@ public class extendsSample {
 		A.getName();
 		A.getSpeak();
 	}
-}
+} 
 
 //부모 클래스
 class Parent {

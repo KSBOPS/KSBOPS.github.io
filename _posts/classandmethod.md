@@ -62,7 +62,7 @@ author_profiel : false
 
 ```java
 public boolean checkPassword(String password) {
-    // 중간 내용
+    // 중간 내용 
 }
 ```
 

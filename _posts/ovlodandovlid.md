@@ -45,7 +45,7 @@ public class overloadingSample {
 		member.test("테스트");
 		member.test(2+"테스트");
 		
-	}
+	} 
 }
 
 class Member {

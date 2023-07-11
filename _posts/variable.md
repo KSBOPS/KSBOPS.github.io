@@ -31,7 +31,7 @@ author_profiel : false
     String title    // 인스턴스 변수
     int price;      // 인스턴스 변수
     static int price2;  //클래스 변수
-
+ 
     public void showPrice() {
       int vl = 0;  //지역 변수
     }

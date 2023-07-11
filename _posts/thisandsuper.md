@@ -49,7 +49,7 @@ public class bookMain {
 		b3.showPrice();
 	}
 
-}
+} 
 
 미입력의 가격은 -1원입니다.
 비매품의 가격은 0원입니다.
